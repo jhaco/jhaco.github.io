@@ -12,14 +12,6 @@ body {font-family: "Lato", sans-serif;}
 .nav a {float: left; font-size: 16px; color: #818181; text-align: center; padding: 14px 16px; text-decoration: none;}
 .nav-right {float: right;}
 
-.dropdown {float: left; overflow: hidden;}
-.dropdown .dbutton {font-size: 16px; border: none; outline: none; color: #818181; padding: 14px 16px; background-color: inherit; font-family: inherit; margin: 0;}
-.dropdown-content {display: none; position: absolute; background-color: rgb(24, 24, 24); min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1;}
-.dropdown-content a {float: none; color: #818181; padding: 12px 12px; text-decoration: none; display: block; text-align: left;}
-
-.nav a:hover, .dropdown:hover .dbutton, .dropdown-content a:hover {color: #f1f1f1;}
-.dropdown:hover .dropdown-content {display: block;}
-
 /* Body Elements */
 
 .page {padding-top: 2em; padding-bottom: 2em; margin: auto; width: 60vw; background-color: rgb(24,24,24); color:#fff;}
